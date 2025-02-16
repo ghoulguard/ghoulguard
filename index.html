@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/png" href="favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GhoulGuard</title>
+  <title>GhoulGuard Cybersecurity Solutions</title>
   <style>
     body {
       margin: 0;
@@ -27,7 +28,7 @@
     }
     img {
       max-height: 100%;
-      max-width: 100%;
+      max-width: 95%;
     }
     a {
       color: limegreen;
@@ -37,6 +38,32 @@
     a:hover {
       text-decoration: underline;
     }
+
+.nav-bar {
+    display: flex;
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Adds space between links */
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: green; /* Adjust color as needed */
+    font-weight: bold;
+    font-size: 20px; /* Increase font size */
+    padding: 10px 20px; /* Add padding to make them bigger */
+    border: 2px solid limegreen; /* Optional: adds a border */
+    border-radius: 5px; /* Optional: rounded corners */
+    background-color: black; /* Background color */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    background-color: limegreen; /* Change color on hover */
+    color: black; /* Change text color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
   </style>
 </head>
 <body>
@@ -44,13 +71,18 @@
     <img src="logo.png" alt="GhoulGuard Logo">
   </div>
   <div class="bottom-section">
-    <h1>Welcome to GhoulGuard</h1>
-    <p>
-      Your trusted partner in cybersecurity. At GhoulGuard, we specialize in taming digital ghouls, 
-      ensuring your business stays safe in an ever-evolving digital landscape.
-    </p>
-    <p>Stay tuned for updates and services coming soon!</p>
-    <p><a href="mailto:contact@ghoulguard.com">Contact Us</a></p>
-  </div>
+	<h1>
+      At GhoulGuard, we specialize in taming digital ghouls, 
+      keeping you safe in an ever-evolving digital landscape.
+    </h1>
+   
+<nav class="nav-bar">
+    <a href="about.html">About</a>
+    <a href="mailto:contact@ghoulguard.com">Contact Us</a>
+</nav>
+
+
+
+
 </body>
 </html>
